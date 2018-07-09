@@ -1,0 +1,12 @@
+{
+  "project_id": "Dapper-Dapper-StackExchange",
+  "project_name" : "Dapper",
+  "project_version" : "1.50.6-alpha",
+  "project_description" : "Dapper - a simple object mapper for .Net",
+  "organization" : "StackExchange",
+  "repo" : "Dapper",
+  "admin" : "a",
+  "invalid_licenses" : [],
+  "fail" : false,
+  "api_cache_time" : 1000
+}
