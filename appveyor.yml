@@ -40,8 +40,8 @@ build_script:
   - mysql -e "create database test;" --user=root
   # Our stuff
   - ps: .\build.ps1 -BuildNumber "$env:APPVEYOR_BUILD_NUMBER" -Version "$env:APPVEYOR_REPO_TAG_NAME" -PullRequestNumber "$env:APPVEYOR_PULL_REQUEST_NUMBER" -CreatePackages $true
-  - cmd: dotnet tool install -g dotnet-dependency-analyzer
-  - cmd: dotnet-dependency-analyzer ./Dapper.StrongName	
+  - cmd: dotnet-dependency-analyzer ./Dapper.StrongName
+  - cmd: dotnet-dependency-analyzer ./Dapper.Tests.Performance
 test: off
 artifacts:
   - path: .\.nupkgs\*.nupkg

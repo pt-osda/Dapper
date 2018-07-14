@@ -5,8 +5,7 @@
   "project_description" : "Dapper - a simple object mapper for .Net",
   "organization" : "StackExchange",
   "repo" : "Dapper",
-  "admin" : "a",
+  "admin" : "hugo",
   "invalid_licenses" : [],
-  "fail" : false,
   "api_cache_time" : 1000
 }
